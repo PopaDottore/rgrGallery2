@@ -8,11 +8,6 @@
         <script type="text/javascript" src="./scripts/fancybox/jquery.mousewheel-3.0.4.pack.js"></script>
         <script type="text/javascript" src="./scripts/fancybox/jquery.fancybox-1.3.4.pack.js"></script>
         <link rel="stylesheet" type="text/css" href="./scripts/fancybox/jquery.fancybox-1.3.4.css" media="screen" />
-        <script type="text/javascript">
-            $ (document).ready(function(){
-                $("a.photo").fancybox();
-            })
-        </script>
     </head>
     <body>
         <div class="gallery">
@@ -41,6 +36,12 @@
                 <a rel="gallery" class="photo" href="18.png"><img src="small/18.png"></a>
                 <a rel="gallery" class="photo" href="big/19.png"><img src="small/19.png"></a>
                 <a rel="gallery" class="photo" href="big/20.png"><img src="small/20.png"></a>
+
+                <script type="text/javascript">
+                    $ (document).ready(function(){
+                        $("a.photo").fancybox();
+                    })
+                </script>
         </div>
         <hr>
         <p style="margin-left: 20px;">
